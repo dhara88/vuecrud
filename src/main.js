@@ -14,11 +14,11 @@ import Login from './components/Login.vue';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/nprogress/nprogress.css';
 
-Vue.use(VueRouter);
+Vue.use(VueRouter); 
 Vue.use(VueAxios, axios);
 
-Vue.config.productionTip = false;
-
+Vue.config.productionTip = true;
+console.log("test")
 const routes = [
   { 
     name: 'Create',
